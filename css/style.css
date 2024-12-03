@@ -1,5 +1,3 @@
-
-
 .container {
     display: inline-block;
     width: 150px;
@@ -7,33 +5,34 @@
 
 .center {
     text-align: center;
-    padding:20px;
-    background-color: rgb(2, 16, 141);
+    padding:15px;
+    background-color: rgba(4, 7, 41, 0.784);
     color: white;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
 }
 
 .home {
     color:red;
     padding:15px 0px 15px 0px;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 50px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
 }
 
 .guest{
     color:red;
     padding:15px 0px 15px 0px;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 50px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
 }
 
 button {
-    background-color: rgb(2, 16, 141);
+    background-color: rgba(4, 7, 41, 0.784);
     border: 2px solid white;
     border-radius: 5px;
     padding: 9px;
@@ -43,4 +42,28 @@ button {
 
 button:hover {
     background-color: rgba(1, 8, 65, 0.784);
+}
+
+.smaller {
+    margin:10px;
+}
+
+.period {
+    display: inline-block;
+    padding: 4px 10px 4px 10px;
+    background-color: black;
+    border-radius: 5px;
+    color: red;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.fouls {
+    display: inline-block;
+    padding: 4px 10px 4px 10px;
+    background-color: black;
+    border-radius: 5px;
+    color: red;
+    margin-left:5px;
+    margin-right:5px;
 }
