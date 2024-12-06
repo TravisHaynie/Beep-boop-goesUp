@@ -5,7 +5,7 @@
 
 .center {
     text-align: center;
-    padding:15px;
+    padding: 10px 10px 30px 10px;
     background-color: rgba(4, 7, 41, 0.784);
     color: white;
     width: 400px;
@@ -31,7 +31,7 @@
     font-family: 'Cursed Timer ULiL', sans-serif;
 }
 
-button {
+.btn {
     background-color: rgba(4, 7, 41, 0.784);
     border: 2px solid white;
     border-radius: 5px;
@@ -40,7 +40,7 @@ button {
     margin:3px;   
 }
 
-button:hover {
+.btn:hover {
     background-color: rgba(1, 8, 65, 0.784);
 }
 
@@ -67,3 +67,4 @@ button:hover {
     margin-left:5px;
     margin-right:5px;
 }
+

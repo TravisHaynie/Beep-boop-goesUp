@@ -11,7 +11,7 @@
     <body>
         <div class="center">
             <h2 id="timer">Time:30</h2>
-            <h2 id="winner"></h2>
+            <h2 id="winner">Leader:</h2>
             <div class="container">
                 <h1 class="smaller">HOME</h1>
                 <h2 id="home" class="home smaller">0</h2>
@@ -26,11 +26,17 @@
                 <button class="btn" onclick="plustwoguest()">+2</button>
                 <button class="btn" onclick="plusthreeguest()">+3</button>
             </div>
-            <button  onclick="newgame()">New Game</button>
+            <div>
             <button class="btn" onclick="gameperiod()">Period</button>
             <h2 id="period" class="period">0</h2>
-            <button class="btn" onclick="teamfouls()">Fouls</button>
+            <button class="btn" onclick="teamfouls()">H-Fouls</button>
             <h2 id="fouls" class="fouls">0</h2>
+            <button class="btn" onclick="teamfoulsGuest()">G-Fouls</button>
+            <h2 id="guestfouls" class="fouls">0</h2>
+            </div>
+            <div>
+            <button class="btn newgame" onclick="newgame()">New Game</button>
+            </div>
         </div>
         <script src="js/scrips.js"></script>
     </body>
