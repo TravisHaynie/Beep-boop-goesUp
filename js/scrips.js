@@ -8,7 +8,7 @@ let countHome = 0
 let countGuest = 0
 let countPeriod = 0
 let countFouls = 0
-let timeEl = 0
+
 
 function plusonehome() {
 
@@ -20,7 +20,7 @@ function plusonehome() {
         document.getElementById("winner").textContent = "HOME WINS"
         homeEl.style.border = "1px solid red"
     } else if (countHome <= 10 && countHome > countGuest) {
-        document.getElementById("winner").textContent = "Homes in the leader"
+        document.getElementById("winner").textContent = "Home in the lead"
     } else {
         console.log("tie")
     }
@@ -36,7 +36,7 @@ function plusoneguest() {
         guestEl.style.border = "1px solid red";
         buttonEl.disablled
     } else if (countGuest <= 10 && countGuest > countHome) {
-        document.getElementById("winner").textContent = "Guest in the leader"
+        document.getElementById("winner").textContent = "Guest in the lead"
     } else {
         console.log("tie")
     }
@@ -51,7 +51,7 @@ function plustwohome() {
         document.getElementById("winner").textContent = "HOME WINS"
         homeEl.style.border = "1px solid red"
     } else if (countHome <= 10 && countHome > countGuest) {
-        document.getElementById("winner").textContent = "Homes in the leader"
+        document.getElementById("winner").textContent = "Home in the lead"
     } else {
         console.log("tie")
     }
@@ -66,7 +66,7 @@ function plustwoguest() {
         document.getElementById("winner").textContent = "GUEST WINS BOO"
         guestEl.style.border = "1px solid red"
     } else if (countGuest <= 10 && countGuest > countHome) {
-        document.getElementById("winner").textContent = "Guest in the leader"
+        document.getElementById("winner").textContent = "Guest in the lead"
     } else {
         console.log("tie")
     }
@@ -81,7 +81,7 @@ function plusthreehome() {
         document.getElementById("winner").textContent = "HOME WINS"
         homeEl.style.border = "1px solid red"
     } else if (countHome <= 10 && countHome > countGuest) {
-        document.getElementById("winner").textContent = "Homes in the leader"
+        document.getElementById("winner").textContent = "Home in the lead"
 
     } else {
         console.log("tie")
@@ -98,7 +98,7 @@ function plusthreeguest() {
         document.getElementById("winner").textContent = "GUEST WINS BOO"
         guestEl.style.border = "1px solid red"
     } else if (countGuest <= 10 && countGuest > countHome) {
-        document.getElementById("winner").textContent = "Guest in the leader"
+        document.getElementById("winner").textContent = "Guest in the lead"
     } else {
         console.log("tie")
     }
@@ -119,5 +119,35 @@ function newgame() {
     location.reload();
 }
 
+function gametimer() {
+
+// const timer = setInterval(()=> {
+//         for(let time = 30; time >= 0; time-- )
+//            if (time >= 1) {
+//                 timerEl.textContent = time
+//                 time--
+//             } else if (time <= 0) {
+//                 timerEl.textContent = "game over"
+//                 clearInterval(timer)
+            
+//             }
+//  },1000);
+// }
+
+// gametimer()
+// function gametimer() {
+//     let time = 30
+// const timer = setInterval(()=> {
+//     if (time >= 0) {
+//         timerEl.textContent = time
+//         time--
+//     } else if (time <= 0) {
+//         timerEl.textContent = "game over"
+//         clearInterval(timer)
+    
+//     }
+// },1000)
+// }
+// gametimer()
 
 
