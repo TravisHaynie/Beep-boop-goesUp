@@ -119,7 +119,7 @@ function newgame() {
     location.reload();
 }
 
-function gametimer() {
+
 
 // const timer = setInterval(()=> {
 //         for(let time = 30; time >= 0; time-- )
